@@ -34,16 +34,16 @@
 #   file: Brewfile
 #   no-upgrage: true
 
-#- pip:
-#    file: python/requirements.txt
-#    binary: /usr/local/opt/python/libexec/bin/pip
+- pip:
+    file: requirements.txt
+    binary: /usr/local/opt/python/libexec/bin/pip
 
-#- pip:
-#    file: python/requirements3.txt
-#    binary: /usr/local/bin/pip3
+- pip:
+    file: requirements-py3.txt
+    binary: /usr/local/bin/pip3
 
-#- pipsi:
-#    file: python/requirements-pipsi.txt
+- pipsi:
+    file: requirements-pipsi.txt
 
 # These links should be created after everything is installed:
 - link:
