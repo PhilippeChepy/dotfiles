@@ -40,6 +40,10 @@
 #   file: Brewfile
 #   no-upgrage: true
 
+- shell:
+    - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+    - sudo chsh -s $(which zsh)
+
 - pip:
     file: requirements.txt
     binary: /usr/local/opt/python/libexec/bin/pip
@@ -53,4 +57,5 @@
 
 # These links should be created after everything is installed:
 - link:
+    ~/.oh-my-zsh/themes/taybalt.zsh-theme: config/oh-my-zsh/taybalt.zsh-theme
     ~/.gnupg/gpg-agent.conf: config/home/gpgagent
