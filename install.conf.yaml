@@ -14,6 +14,7 @@
     ~/.zshrc: config/home/zshrc
     ~/.hushlogin: config/home/hushlogin
     ~/.antibody: config/home/antibody.txt
+    ~/.inputrc: config/home/inputrc
 
     # Git:
     ~/.gitconfig: config/home/gitconfig
