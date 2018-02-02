@@ -31,6 +31,11 @@
 #        path: apps/sublime-text-3
 #        create: true
 
+    # iTerm2
+    "~/Library/Preferences/com.googlecode.iterm2.plist":
+        path: apps/iterm2/com.googlecode.iterm2.plist
+        create: true
+
 #- brewfile:
 #   file: Brewfile
 #   no-upgrage: true
