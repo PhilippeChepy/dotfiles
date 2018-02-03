@@ -2,4 +2,3 @@
 
 pygments
 glances[docker,gpu,ip]
-wakatime
