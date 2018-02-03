@@ -2,6 +2,9 @@
 
 - shell:
   - [git submodule update --init --recursive, Installing submodules]
+  - mkdir -p ~/.httpie
+  - mkdir -p ~/.gnupg
+  - /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 - link:
     # Terminal:
@@ -32,6 +35,10 @@
 
     # iTerm2
     "~/Library/Preferences/com.googlecode.iterm2.plist": apps/iterm2/com.googlecode.iterm2.plist
+
+- shell:
+    - mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
+    - cp -f apps/sublime-text-3/ayu.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
 
 - brewfile:
    file: Brewfile
