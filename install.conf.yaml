@@ -15,6 +15,7 @@
     ~/.bash_profile: config/home/bash_profile
     ~/.bashrc: config/home/bashrc
     ~/.zshrc: config/home/zshrc
+    ~/.vimrc: config/home/vimrc
     ~/.hushlogin: config/home/hushlogin
     ~/.inputrc: config/home/inputrc
 
