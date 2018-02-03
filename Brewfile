@@ -18,6 +18,7 @@ brew "python3"
 brew "bash"
 brew "curl", args: ["with-openssl"]
 brew "docker-clean"
+brew "dockutil"
 brew "fzf"
 brew "geoip"
 brew "git"
@@ -48,10 +49,14 @@ brew "vim"
 brew "wget"
 brew "z"
 brew "zsh"
+brew "zsh-completions"
 
+cask "anki"
+cask "docker"
 cask "flux"
-cask "keyboard-cleaner"
 cask "iterm2"
+cask "keyboard-cleaner"
+cask "parallels"
 cask "postman"
 cask "qlcolorcode"
 cask "qlmarkdown"
@@ -59,6 +64,7 @@ cask "qlstephen"
 cask "quicklook-json"
 cask "sequel-pro"
 cask "skype7"
+cask "sequel-pro"
 cask "sublime-text"
 cask "teamviewer"
 cask "the-unarchiver"
@@ -80,6 +86,9 @@ mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
+mas "Encrypto", id: id935235287
+mas "Airmail 3", id: 918858936
+mas "Microsoft Remote Desktop 8", id: 715768417
 mas "CopyClip", id: 595191960
 mas "Todoist", id: 585829637
 mas "App Cleaner", id: 1013897218
