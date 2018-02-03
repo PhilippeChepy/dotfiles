@@ -26,16 +26,16 @@
     ~/.editorconfig: config/home/editorconfig
 
     # Sublime text:
-#    "~/Library/Application Support/Sublime Text 3/Packages/User":
-#        path: apps/sublime-text-3
-#        create: true
+    "~/Library/Application Support/Sublime Text 3/Packages/User":
+        path: apps/sublime-text-3
+        create: true
 
     # iTerm2
     "~/Library/Preferences/com.googlecode.iterm2.plist": apps/iterm2/com.googlecode.iterm2.plist
 
-#- brewfile:
-#   file: Brewfile
-#   no-upgrage: true
+- brewfile:
+   file: Brewfile
+   no-upgrage: true
 
 - shell:
     - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
