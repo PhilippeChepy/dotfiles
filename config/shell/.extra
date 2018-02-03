@@ -1,4 +1,4 @@
-eval "$(thefuck --alias)"
+# eval "$(thefuck --alias)"
 
 fpath=($HOME"/dotfiles/oh-my-zsh/autocomplete" /usr/local/share/zsh-completions $fpath)
 

@@ -4,11 +4,6 @@
 #
 # This file is used as a part of `.shell_env`
 
-# === Autocomplete ===
-
-source <(npm completion)  # adds normal autocomplete to `npm` commands
-
-
 # === fzf ===
 
 if [[ ! "$PATH" == */usr/local/opt/fzf/bin* ]]; then
