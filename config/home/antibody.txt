@@ -1,7 +1,0 @@
-# Sorted alphabetically (by author's name):
-sobolevn/wakatime-zsh-plugin
-zsh-users/zsh-syntax-highlighting
-
-
-# Theme, should be the last:
-sobolevn/sobole-zsh-theme

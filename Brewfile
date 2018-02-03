@@ -1,7 +1,6 @@
 tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/versions"
-tap "getantibody/tap"
 tap "heroku/brew"
 tap "homebrew/apache"
 tap "homebrew/bundle"
@@ -48,7 +47,6 @@ brew "vim"
 brew "wget"
 brew "z"
 brew "zsh"
-brew "getantibody/tap/antibody"
 
 # Base packages
 cask "skype7"
