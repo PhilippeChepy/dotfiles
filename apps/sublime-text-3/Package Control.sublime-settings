@@ -6,24 +6,17 @@
 	"installed_packages":
 	[
 		"A File Icon",
+    "Ansible",
 		"ayu",
-		"Babel",
-		"Bats (Bash Automated Testing System)",
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
 		"EditorConfig",
-		"Elixir",
-		"ElixirSublime",
 		"GitGutter",
 		"Highlight",
 		"INI",
 		"Jedi - Python autocompletion",
-		"JSX",
 		"Package Control",
-		"Sass",
 		"SideBarEnhancements",
-		"TOML",
-		"TypeScript",
-		"Vue Syntax Highlight",
+    "Terraform"
 	]
 }
