@@ -32,9 +32,7 @@
 #        create: true
 
     # iTerm2
-    "~/Library/Preferences/com.googlecode.iterm2.plist":
-        path: apps/iterm2/com.googlecode.iterm2.plist
-        create: true
+    "~/Library/Preferences/com.googlecode.iterm2.plist": apps/iterm2/com.googlecode.iterm2.plist
 
 #- brewfile:
 #   file: Brewfile
