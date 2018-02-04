@@ -38,8 +38,6 @@ export PATH="/usr/local/sbin:/usr/local/share/npm/bin:/usr/local/opt/php56/bin:/
 # Custom envs:
 source $ZSH/oh-my-zsh.sh
 source ~/.shell_env
-source ~/.kube-ps1/kube-ps1.sh
-PROMPT='$(kube_ps1)'$PROMPT
 
 # You may seed to manually set your language environment
 # export LANG=en_US.UTF-8
