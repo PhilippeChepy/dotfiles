@@ -7,3 +7,6 @@
 [submodule "dotbot-pip"]
 	path = dotbot-pip
 	url = https://github.com/sobolevn/dotbot-pip.git
+[submodule "config/kube-ps1"]
+	path = config/kube-ps1
+	url = https://github.com/jonmosco/kube-ps1

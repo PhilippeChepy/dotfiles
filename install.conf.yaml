@@ -18,6 +18,7 @@
     ~/.vimrc: config/home/vimrc
     ~/.hushlogin: config/home/hushlogin
     ~/.inputrc: config/home/inputrc
+    ~/.kube-ps1: config/kube-ps1
 
     # Git:
     ~/.gitconfig: config/home/gitconfig
