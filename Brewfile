@@ -1,6 +1,7 @@
 tap "caskroom/cask"
 tap "caskroom/fonts"
 tap "caskroom/versions"
+tap "getantibody/tap"
 tap "heroku/brew"
 tap "homebrew/apache"
 tap "homebrew/bundle"
@@ -12,6 +13,7 @@ tap "homebrew/versions"
 
 # CLI tools
 
+brew "getantibody/tap/antibody"
 brew "ansible"
 brew "ansible-lint"
 brew "bash"

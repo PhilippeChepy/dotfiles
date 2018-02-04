@@ -18,6 +18,7 @@
     ~/.hushlogin: config/home/hushlogin
     ~/.inputrc: config/home/inputrc
     ~/.macos: config/home/macos
+    ~/.antibody: config/home/antibody
     ~/.kube-ps1: config/kube-ps1
 
     # Git:
@@ -69,6 +70,5 @@
 
 # These links should be created after everything is installed:
 - link:
-    ~/.oh-my-zsh/themes/taybalt.zsh-theme: config/oh-my-zsh/taybalt.zsh-theme
     ~/.zshrc: config/home/zshrc
     ~/.gnupg/gpg-agent.conf: config/home/gpgagent
