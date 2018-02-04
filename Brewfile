@@ -11,12 +11,12 @@ tap "homebrew/services"
 tap "homebrew/versions"
 
 # CLI tools
-brew "openssl"
+
 brew "ansible"
 brew "ansible-lint"
-brew "python3"
 brew "bash"
 brew "curl", args: ["with-openssl"]
+brew "diff-so-fancy"
 brew "docker-clean"
 brew "dockutil"
 brew "fzf"
@@ -34,8 +34,10 @@ brew "jq"
 brew "mas"
 brew "mercurial"
 brew "nmap"
+brew "openssl"
 brew "pinentry-mac"
 brew "pyenv"
+brew "python3"
 brew "rmtrash"
 brew "rust"
 brew "shellcheck"
@@ -86,7 +88,7 @@ mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Encrypto", id: id935235287
+mas "Encrypto", id: 935235287
 mas "Airmail 3", id: 918858936
 mas "Microsoft Remote Desktop 8", id: 715768417
 mas "CopyClip", id: 595191960
