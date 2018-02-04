@@ -14,7 +14,6 @@
     ~/.shell_env: config/home/shell_env
     ~/.bash_profile: config/home/bash_profile
     ~/.bashrc: config/home/bashrc
-    ~/.zshrc: config/home/zshrc
     ~/.vimrc: config/home/vimrc
     ~/.hushlogin: config/home/hushlogin
     ~/.inputrc: config/home/inputrc
@@ -123,7 +122,11 @@
     - dockutil --no-restart --add "/Applications/Skype.app"
     - dockutil --no-restart --add "/Applications/Utilities/Activity Monitor.app"
 
+- shell:
+    - rm -f ~/.zshrc
+
 # These links should be created after everything is installed:
 - link:
     ~/.oh-my-zsh/themes/taybalt.zsh-theme: config/oh-my-zsh/taybalt.zsh-theme
+    ~/.zshrc: config/home/zshrc
     ~/.gnupg/gpg-agent.conf: config/home/gpgagent
