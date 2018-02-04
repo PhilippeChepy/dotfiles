@@ -6,8 +6,8 @@
 	"installed_packages":
 	[
 		"A File Icon",
-    "Ansible",
-    "Ansible Vault",
+		"Ansible",
+		"Ansible Vault",
 		"ayu",
 		"Dockerfile Syntax Highlighting",
 		"DotENV",
@@ -18,6 +18,6 @@
 		"Jedi - Python autocompletion",
 		"Package Control",
 		"SideBarEnhancements",
-    "Terraform"
+		"Terraform"
 	]
 }
