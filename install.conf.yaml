@@ -75,10 +75,6 @@
     - defaults write com.apple.finder WarnOnEmptyTrash -bool false
     # Show indicator lights for open applications in the Dock
     - defaults write com.apple.dock show-process-indicators -bool true
-    # Disable local Time Machine backups
-    - hash tmutil &> /dev/null && sudo tmutil disablelocal
-    # Disable local Time Machine snapshots
-    - sudo tmutil disablelocal
     # Show the main window when launching Activity Monitor
     - defaults write com.apple.ActivityMonitor OpenMainWindow -bool true
     # Visualize CPU usage in the Activity Monitor Dock icon
