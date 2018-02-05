@@ -2,7 +2,6 @@
 
 ![my dotfiles](media/Screenshot.png)
 
-
 ## Contents
 
 What's in there?
@@ -19,8 +18,18 @@ What's in there?
 We are using `dotbot` to handle any installations. Steps:
 
 1. Clone this repo
-2. `cd` into `dotfiles/` folder
+2. `cd` into repo folder
 3. Run `install` script
+
+### Setting up iTerm2
+
+1. Open an editor for (repo)/apps/iterm2/com.googlecode.iterm2.plist
+2. Patch paths references to `~/.dot-files/apps/iterm2` and `/Users/philippe/.dot-files/apps/iterm2`
+
+### Setting up alias
+
+1. Open an editor for (repo)/config/shell/.aliases
+2. Patch paths reference in `alias secrets="~/.dot-files/secrets/secrets"`
 
 ### Setting up SublimeText
 
@@ -77,6 +86,16 @@ Password:
 
 3 directories, 6 files
 ```
+
+
+## Credits
+
+Lots of ideas/stuff in this repo are from :
+
+* https://github.com/sobolevn/dotfiles
+* https://github.com/mihaliak/dotfiles
+* https://github.com/mathiasbynens/dotfiles
+* https://github.com/paulmillr/dotfiles
 
 ## License
 
