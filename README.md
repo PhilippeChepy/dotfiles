@@ -43,6 +43,40 @@ Here's the full list:
 
     2.1 `~/.shell_env_local` to store local shell config, like: usernames, passwords, tokens, `gpg` keys and so on
 
+## Secrets Management
+
+Simple management of secrets :
+
+* `Ansible Vault` : files in `~/.ansible-password`
+* `ssh keys` : files in `~/.ssh/id_*`
+* `gpg` keys
+
+Commands:
+
+* `secrets backup` : save secrets in ~/Desktop/secrets.aes
+* `secrets restore` : restore secrets from ~/Desktop/secrets.aes
+* `secrets list` : show saved secrets in ~/Desktop/secrets.aes
+
+Each of these commands ask for a password.
+
+Exemple:
+
+```bash
+❯ secrets list
+➜ Decipher secrets archive
+Password:
+.
+├── [  96]  ansible-vault
+│   └── [  15]  default
+├── [ 128]  gpg
+│   ├── [4.9K]  1AC7F64317E5D829F1F2098A1CDC1EFEE9EB334C.asc
+│   └── [4.9K]  D20D02EDABEC99FD38C0BC04B3BFB222743DF3DF.asc
+└── [ 128]  ssh
+    ├── [3.2K]  id_rsa
+    └── [ 749]  id_rsa.pub
+
+3 directories, 6 files
+```
 
 ## License
 
