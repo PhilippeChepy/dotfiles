@@ -99,4 +99,4 @@ Lots of ideas/stuff in this repo are from :
 
 ## License
 
-[WTFPL](https://en.wikipedia.org/wiki/WTFPL): do the fuck you want. Enjoy!
+Public Domain
