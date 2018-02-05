@@ -41,6 +41,9 @@ alias rmds="find . -type f -name '*.DS_Store' -ls -delete"
 alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;echo "✌️ DNS flushed"'
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
+# Secrets
+alias secrets="~/.dot-files/secrets/secrets"
+
 # Development
 alias code='cd ~/Code'
 alias desktop='cd ~/Desktop'
