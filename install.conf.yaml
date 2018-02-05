@@ -52,15 +52,15 @@
     - sudo chsh -s $(which zsh)
 
 - pip:
-    file: requirements.txt
+    file: config/python/requirements.txt
     binary: /usr/local/opt/python/libexec/bin/pip
 
 - pip:
-    file: requirements-py3.txt
+    file: config/python/requirements-py3.txt
     binary: /usr/local/bin/pip3
 
 - pipsi:
-    file: requirements-pipsi.txt
+    file: config/python/requirements-pipsi.txt
 
 - shell:
     - ~/.macos
