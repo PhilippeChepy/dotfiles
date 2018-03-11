@@ -62,6 +62,7 @@ brew "zsh"
 brew "zsh-completions"
 
 cask "anki"
+cask "cyberduck"
 cask "docker"
 cask "dropbox"
 cask "flux"
