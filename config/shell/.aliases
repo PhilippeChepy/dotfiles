@@ -42,7 +42,7 @@ alias flushdns='sudo dscacheutil -flushcache;sudo killall -HUP mDNSResponder;ech
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 
 # Secrets
-alias secrets="~/.dot-files/secrets/secrets"
+alias secrets="~/Code/dotfiles/secrets/secrets"
 
 # Development
 alias code='cd ~/Code'

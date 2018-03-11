@@ -24,3 +24,5 @@ source "$HOME/.shell/.extra"
 if [[ -f "$HOME/.shell_env_local" ]]; then
   source "$HOME/.shell_env_local"
 fi
+
+export GOPATH=$HOME/Code/go

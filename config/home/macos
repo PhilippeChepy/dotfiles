@@ -144,6 +144,15 @@ sudo pmset -a hibernatemode 0
 # Trackpad, mouse, keyboard, Bluetooth accessories, and input                 #
 ###############################################################################
 
+# Tap to click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
+
+# Tap with two fingers to emulate right click
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadRightClick -bool true
+
+# Enable three finger drag
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad TrackpadThreeFingerDrag -bool true
+
 # Trackpad: enable tap to click for this user and for the login screen
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
 defaults -currentHost write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
@@ -621,9 +630,9 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 ###############################################################################
 
 dockutil --no-restart --add "/Applications/Airmail 3.app" --replacing "Mail"
-#dockutil --no-restart --add "/Applications/Pages.app"
-#dockutil --no-restart --add "/Applications/Numbers.app"
-#dockutil --no-restart --add "/Applications/Xcode.app"
+dockutil --no-restart --add "/Applications/Pages.app"
+dockutil --no-restart --add "/Applications/Numbers.app"
+dockutil --no-restart --add "/Applications/Xcode.app"
 dockutil --no-restart --add "/Applications/iTerm.app"
 dockutil --no-restart --add "/Applications/Sublime Text.app"
 dockutil --no-restart --add "/Applications/Sequel Pro.app"

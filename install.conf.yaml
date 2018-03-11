@@ -19,7 +19,6 @@
     ~/.inputrc: config/home/inputrc
     ~/.macos: config/home/macos
     ~/.antibody: config/home/antibody
-    ~/.kube-ps1: config/kube-ps1
 
     # Git:
     ~/.gitconfig: config/home/gitconfig
@@ -64,6 +63,7 @@
 
 - shell:
     - ~/.macos
+    - mkdir -p ~/Code/go
 
 - shell:
     - rm -f ~/.zshrc
