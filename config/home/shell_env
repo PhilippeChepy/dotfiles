@@ -26,3 +26,4 @@ if [[ -f "$HOME/.shell_env_local" ]]; then
 fi
 
 export GOPATH=$HOME/Code/go
+export EDITOR=/usr/bin/vim
