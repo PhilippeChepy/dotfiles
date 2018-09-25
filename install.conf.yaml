@@ -23,9 +23,9 @@
     # Editors:
     ~/.editorconfig: config/home/editorconfig
 
-#- brewfile:
-#   file: Brewfile
-#   no-upgrage: true
+- brewfile:
+   file: Brewfile
+   no-upgrage: true
 
 - shell:
     - sudo chsh -s $(which fish)
