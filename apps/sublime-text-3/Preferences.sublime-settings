@@ -37,13 +37,12 @@
 	"spell_check": true,
 	"tab_size": 4,
 	"theme": "ayu-light.sublime-theme",
-	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"ui_big_tabs": true,
 	"ui_font_size_small": false,
 	"ui_separator": false,
 	"update_check": false,
 	"wide_caret": true,
-	"word_wrap": true,
+	"word_wrap": false,
 	"wrap_width": 80
 }

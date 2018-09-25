@@ -8,17 +8,10 @@
 
 - link:
     # Terminal:
-    ~/.shell:
-      path: config/shell
-      create: true
-    ~/.shell_env: config/home/shell_env
     ~/.bash_profile: config/home/bash_profile
     ~/.bashrc: config/home/bashrc
     ~/.vimrc: config/home/vimrc
     ~/.hushlogin: config/home/hushlogin
-    ~/.inputrc: config/home/inputrc
-    ~/.macos: config/home/macos
-    ~/.antibody: config/home/antibody
 
     # Git:
     ~/.gitconfig: config/home/gitconfig
@@ -30,45 +23,20 @@
     # Editors:
     ~/.editorconfig: config/home/editorconfig
 
-    # Sublime text:
-    "~/Library/Application Support/Sublime Text 3/Packages/User":
-        path: apps/sublime-text-3
-        create: true
-
-    # iTerm2
-    "~/Library/Preferences/com.googlecode.iterm2.plist": apps/iterm2/com.googlecode.iterm2.plist
+#- brewfile:
+#   file: Brewfile
+#   no-upgrage: true
 
 - shell:
-    - mkdir -p ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
-    - cp -f apps/sublime-text-3/ayu.sublime-package ~/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages/
-
-- brewfile:
-   file: Brewfile
-   no-upgrage: true
+    - sudo chsh -s $(which fish)
 
 - shell:
-    - curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-    - sudo chsh -s $(which zsh)
-
-- pip:
-    file: config/python/requirements.txt
-    binary: /usr/local/opt/python/libexec/bin/pip
-
-- pip:
-    file: config/python/requirements-py3.txt
-    binary: /usr/local/bin/pip3
-
-- pipsi:
-    file: config/python/requirements-pipsi.txt
-
-- shell:
-    - ~/.macos
-    - mkdir -p ~/Code/go
-
-- shell:
-    - rm -f ~/.zshrc
+    - curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
+    - fisher jethrokuan/z
+    - fisher rafaelrinaldi/pure
+    - echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
+    - chsh -s /usr/local/bin/fish
 
 # These links should be created after everything is installed:
 - link:
-    ~/.zshrc: config/home/zshrc
     ~/.gnupg/gpg-agent.conf: config/home/gpgagent
