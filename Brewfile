@@ -15,6 +15,7 @@ brew "blackbox"
 brew "curl", args: ["with-openssl"]
 brew "cocoapods"
 brew "docker-clean"
+brew "fish"
 brew "git"
 brew "git-flow"
 brew "gnupg"
