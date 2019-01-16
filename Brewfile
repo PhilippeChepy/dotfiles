@@ -18,7 +18,6 @@ brew "docker-clean"
 brew "git"
 brew "git-flow"
 brew "gnupg"
-#brew "gpg-agent"
 brew "highlight"
 brew "iftop"
 brew "jq"
@@ -34,7 +33,6 @@ brew "vim"
 brew "watch"
 brew "wget"
 
-cask "cyberduck"
 cask "docker"
 cask "dropbox"
 cask "fluor"
@@ -43,36 +41,28 @@ cask "gpg-suite"
 cask "google-cloud-sdk"
 cask "iterm2"
 cask "keeweb"
-cask "keyboard-cleaner"
-cask "parallels"
 cask "qlcolorcode"
 cask "qlmarkdown"
 cask "qlstephen"
 cask "quicklook-json"
-cask "sequel-pro"
-cask "sketch"
-cask "skype7"
 cask "sequel-pro"
 cask "sublime-text"
 cask "the-unarchiver"
 cask "tunnelblick"
 
 # Fonts
-# cask "caskroom/fonts/font-consolas-for-powerline"
-# cask "caskroom/fonts/font-fira-code"
-# cask "caskroom/fonts/font-inconsolata"
-# cask "caskroom/fonts/font-inconsolata-for-powerline"
-# cask "caskroom/fonts/font-roboto-mono"
-# cask "caskroom/fonts/font-roboto-mono-for-powerline"
+cask "caskroom/fonts/font-consolas-for-powerline"
+cask "caskroom/fonts/font-fira-code"
+cask "caskroom/fonts/font-inconsolata"
+cask "caskroom/fonts/font-inconsolata-for-powerline"
+cask "caskroom/fonts/font-roboto-mono"
+cask "caskroom/fonts/font-roboto-mono-for-powerline"
 
 # App Store Applications
 mas "Xcode", id: 497799835
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
-mas "Encrypto", id: 935235287
 mas "Airmail 3", id: 918858936
-mas "Microsoft Remote Desktop 8", id: 715768417
 mas "CopyClip", id: 595191960
-mas "Todoist", id: 585829637
 mas "App Cleaner", id: 1013897218

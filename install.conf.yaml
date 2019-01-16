@@ -8,20 +8,12 @@
 
 - link:
     # Terminal:
-    ~/.bash_profile: config/home/bash_profile
-    ~/.bashrc: config/home/bashrc
     ~/.vimrc: config/home/vimrc
     ~/.hushlogin: config/home/hushlogin
 
     # Git:
     ~/.gitconfig: config/home/gitconfig
     ~/.gitignore_global: config/home/gitignore
-
-    # Tools:
-    ~/.httpie/config.json: config/home/httpie
-
-    # Editors:
-    ~/.editorconfig: config/home/editorconfig
 
 - brewfile:
    file: Brewfile
@@ -31,9 +23,9 @@
     - sudo chsh -s $(which fish)
 
 - shell:
-    - curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs https://git.io/fisher
-    - fisher jethrokuan/z
-    - fisher rafaelrinaldi/pure
+    - curl -L https://get.oh-my.fish | fish
+    - omf install z
+    - omf install clearance
     - echo "/usr/local/bin/fish" | sudo tee -a /etc/shells
     - chsh -s /usr/local/bin/fish
 
