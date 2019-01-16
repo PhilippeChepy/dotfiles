@@ -34,6 +34,7 @@ brew "vim"
 brew "watch"
 brew "wget"
 
+cask "discord"
 cask "docker"
 cask "dropbox"
 cask "fluor"
@@ -50,6 +51,7 @@ cask "sequel-pro"
 cask "sublime-text"
 cask "the-unarchiver"
 cask "tunnelblick"
+cask "visual-studio-code"
 
 # Fonts
 cask "caskroom/fonts/font-consolas-for-powerline"
